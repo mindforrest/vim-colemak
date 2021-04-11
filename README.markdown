@@ -3,6 +3,8 @@ vim-colemak
 
 Colemak key mappings for Vim. Trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
 
+-mindforrest: just changes for my weird custom layout
+
 Install
 -------
 
