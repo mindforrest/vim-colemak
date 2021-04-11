@@ -10,7 +10,7 @@
     if v:version < 700 | echohl WarningMsg | echo "colemak.vim: You need Vim version 7.0 or later." | echohl None | finish | endif
 " }}}
 " Up/down/left/right {{{
-    nnoremap h h|xnoremap h h|onoremap h h|
+    nnoremap k h|xnoremap k h|onoremap k h|
     nnoremap n j|xnoremap n j|onoremap n j|
     nnoremap e k|xnoremap e k|onoremap e k|
     nnoremap i l|xnoremap i l|onoremap i l|
@@ -70,7 +70,7 @@
     nnoremap P T|xnoremap P T|onoremap P T|
     nnoremap b ;|xnoremap b ;|onoremap b ;|
     nnoremap B ,|xnoremap B ,|onoremap B ,|
-    nnoremap k n|xnoremap k n|onoremap k n|
+    nnoremap h n|xnoremap h n|onoremap h n|
     nnoremap K N|xnoremap K N|onoremap K N|
 " }}}
 " inneR text objects {{{
