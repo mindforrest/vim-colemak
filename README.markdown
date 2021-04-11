@@ -29,7 +29,7 @@ Key mappings
 Colemak layout:                  |                 QWERTY layout:
 `12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
  qwfpg jluy;[]\         e        |       k          qwert yuiop[]\
- arstd HNEIo'         h   i      |     h   l        asdfg HJKL;'
+ arstd HNEIo'         k   i      |     h   l        asdfg HJKL;'
  zxcvb km,./            n        |       j          zxcvb nm,./
 
 (  novx)  h = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
@@ -57,7 +57,7 @@ Colemak layout:                  |                 QWERTY layout:
 
 (  no x)  p = t{char} (Before next {char})  P = T{char} (After previous {char})
 (  no x)  b = ; (Repeat latest f or t)  B = , (Repeat latest f or t reversed)
-(  no x)  k = n (Repeat latest / or ?)  K = N (Repeat latest / or ? reversed)
+(  no x)  h = n (Repeat latest / or ?)  K = N (Repeat latest / or ? reversed)
 
 (  n  x)  j = z
 (  n  x)  jn = zj (Next fold) [Also jj = zj]
