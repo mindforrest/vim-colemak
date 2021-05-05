@@ -50,13 +50,12 @@ Key mappings
 (  n  x)  zn = zj (Next fold) 
 (  n  x)  ze = zk (Previous fold)
 
+(  n   )  l = o (open)
+
 (  n  x)  <C-W>n = <C-W>h (Window left)
 (  n  x)  <C-W>e = <C-W>j (Window down)
 (  n  x)  <C-W>i = <C-W>k (Window up)
 (  n  x)  <C-W>o = <C-W>l (Window right)
- 
-Somehow L is like unused
-i'm gonna use it as a 'l'eader key when i get to needing custom stuff
 
 Lost:
 (  n   )  Z (Quit)
