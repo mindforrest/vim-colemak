@@ -50,6 +50,10 @@
     " E.g. dip (delete inner paragraph) is now drp
     onoremap r i
 
+" Open
+    nnoremap l o|
+    nnoremap L O|
+
 " Folds, etc.
     nnoremap zn zj|xnoremap zn zj|
     nnoremap ze zk|xnoremap ze zk|
