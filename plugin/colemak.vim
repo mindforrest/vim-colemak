@@ -1,7 +1,7 @@
 " Description:
 "   Original by Shai Coleman, 2008-04-21.  http://colemak.com/
 "   Modified by Esko, 2012-09-14.
-"   Minimized by mindforrest, 2021-05-04.  github.com/mindforrest/vim-colemak
+"   Minimized and modified by mindforrest, 2021-05-04.  github.com/mindforrest/vim-colemak
 "
 "   Load colemak.vim after all other Vim scripts.
 "
@@ -36,6 +36,10 @@
 " insert to k
     nnoremap k i|
     nnoremap K I|
+
+" bind wy to esc
+    inoremap wy <esc>|xnoremap wy <esc>|onoremap wy <esc>
+    inoremap yw <esc>|xnoremap yw <esc>|onoremap yw <esc>
 
 " Visual mode
     " Make insert/add work also in visual line mode like in visual block mode
