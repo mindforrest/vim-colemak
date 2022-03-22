@@ -38,8 +38,8 @@
     nnoremap K I|
 
 " bind wy to esc
-    inoremap wy <esc>|xnoremap wy <esc>|onoremap wy <esc>
-    inoremap yw <esc>|xnoremap yw <esc>|onoremap yw <esc>
+    "inoremap wy <esc>|xnoremap wy <esc>|onoremap wy <esc>
+     "inoremap yw <esc>|xnoremap yw <esc>|onoremap yw <esc>
 
 " Visual mode
     " Make insert/add work also in visual line mode like in visual block mode
