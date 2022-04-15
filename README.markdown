@@ -17,7 +17,7 @@ Install
     " Reload vim-colemak to remap any overridden keys
     silent! source "$HOME/.vim/bundle/vim-colemak/plugin/colemak.vim"
     ```
-    *with neovim:
+    *with neovim:*
     ```
     silent! source "$HOME/.config/nvim/bundle/vim-colemak/plugin/colemak.vim"
     ```
