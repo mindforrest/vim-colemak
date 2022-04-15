@@ -21,6 +21,10 @@
     nnoremap E J|xnoremap E J|onoremap E J|
     nnoremap I K|xnoremap I K|onoremap I K|
     nnoremap O L|xnoremap O L|onoremap O L|
+    
+" graphical up/down
+    nnoremap ge gj|xnoremap ge gj|onoremap ge gj|
+    nnoremap gi gk|xnoremap gi gk|onoremap gi gk|
 
 " Words forward/backward
     " h/H = back word/WORD
