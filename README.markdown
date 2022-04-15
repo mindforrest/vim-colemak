@@ -94,9 +94,9 @@ Changes
 -------
 
 
-## 2021-05-04
+### 2021-05-04
 
-    - Rewrote the plugin, minimizing changes. Past ergonomics, I think preserving the letter of a command is better than the position of it-it's personally easier for me to remember the letters, and is signifigantly less complex for overall configuration.
+   Rewrote the plugin, minimizing changes. Past ergonomics, I think preserving the letter of a command is better than the position of it-it's personally easier for me to remember the letters, and is signifigantly less complex for overall configuration.
 
 
 
