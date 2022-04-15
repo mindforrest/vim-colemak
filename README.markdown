@@ -17,6 +17,10 @@ Install
     " Reload vim-colemak to remap any overridden keys
     silent! source "$HOME/.vim/bundle/vim-colemak/plugin/colemak.vim"
     ```
+    *with neovim:
+    ```
+    silent! source "$HOME/.config/nvim/bundle/vim-colemak/plugin/colemak.vim"
+    ```
 
     *Note: You might be using `~/.vim/plugged`.*
 
@@ -26,10 +30,10 @@ Key mappings
 ------------
 
 ```Colemak layout:                  |                 QWERTY layout:
-`12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
+`12345 67890`     Move around:  |  (instead of)   `12345 67890-=
  zwfp,    .luy;-        i        |       k          qwert yuiop[]\
  arstg[  ]kneio'      n   o      |     h   l        asdfg HJKL;'
- qxcdb    mhjv/!        e        |       j          zxcvb nm,./
+ qxcdb    mhjv/=        e        |       j          zxcvb nm,./
 
 (  novx)  n = h (Left)     e = l (Right)     i = k (Up)     o = j (Down)
 
