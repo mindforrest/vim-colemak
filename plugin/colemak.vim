@@ -21,7 +21,7 @@
     nnoremap E J|xnoremap E J|onoremap E J|
     nnoremap I K|xnoremap I K|onoremap I K|
     nnoremap O L|xnoremap O L|onoremap O L|
-    
+
 " graphical up/down
     nnoremap ge gj|xnoremap ge gj|onoremap ge gj|
     nnoremap gi gk|xnoremap gi gk|onoremap gi gk|
@@ -38,8 +38,8 @@
     nnoremap J W|xnoremap J W|onoremap J W|
 
 " insert to k
-    nnoremap k i|
-    nnoremap K I|
+    nnoremap k i|xnoremap k i|onoremap k i
+    nnoremap K I|xnoremap K I|onoremap K I
 
 " bind wy to esc
     "inoremap wy <esc>|xnoremap wy <esc>|onoremap wy <esc>
@@ -47,7 +47,7 @@
 
 " Visual mode
     " Make insert/add work also in visual line mode like in visual block mode
-    xnoremap <silent> <expr> k (mode() =~# "[V]" ? "\<C-V>0o$I" : "I")
+    xnoremap <silent> <expr> k (mode() =~# "[V]" ? "\<C-V>0o$I" : "i")
     xnoremap <silent> <expr> K (mode() =~# "[V]" ? "\<C-V>0o$I" : "I")
 
 " Search

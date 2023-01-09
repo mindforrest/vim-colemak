@@ -39,7 +39,7 @@ Key mappings
 
 (  n  x)  v = v (Visual)   V = V (Visual line)
 (  n   )  r = r (Replace)  R = R (Replace)
-(  n   )  k = i (Insert)   K = I (Insert before first non-blank of line)
+(  novx)  k = i (Insert)   K = I (Insert before first non-blank of line)
 (  n   )  a = a (Append)   A = A (Append at end of line)
 (  n   )  c = c (Change)   C = C (Change to end of line)
 
