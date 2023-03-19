@@ -3,13 +3,13 @@ vim-colemak
 
 Colemak key mappings for Vim. Trimmed and modified version of [jooize,s configuration](https://github.com/jooize/vim-colemak), which is a trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
 
-My version is decently minimized to change as few keys as possible. It has word navigtion on h and j, which is a quirk of my keyboard layout, so no one else will ever use this.
+My version is decently minimized to change as few keys as possible. It has word navigtion on h and j, which is a quirk of my keyboard layout, so no one else will probably ever use this.
 
 Install
 -------
 
 1. Use [vim-plug](https://github.com/junegunn/vim-plug).
-2. Add to `.vimrc`: `Plug 'mindforrest/vim-colemak'`
+2. Add to `.vimrc`: `Plug 'spiderforrest/vim-colemak'`
 3. Run `vim +PlugInstall`
 4. You probably want to load vim-colemak last. Reload the plugin at the bottom of your Vim configuration.
 
