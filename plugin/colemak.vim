@@ -56,7 +56,7 @@
 
 " inneR text objects
     " E.g. dip (delete inner paragraph) is now drp
-    onoremap r i
+    nnoremap r i | xnoremap r i | onoremap r i
 
 " Open
     nnoremap l o|
